@@ -27,7 +27,7 @@ Download the complete source code of any website (including all assets) 🔨.
 - `$ npm install`
 - `$ npm start`
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hacker-263/Zed-2.0)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hacker-263/Site-Grabber)
 
 # How To Contribute:
  - Open Issue with any bug you noticed.
