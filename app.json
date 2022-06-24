@@ -1,0 +1,27 @@
+{
+  "name": "Site-Grabber",
+  "description": "Website cloner By Hxcker263",
+  "repository": "https://github.com/hacker-263/Site-Grabber",
+  "logo": "https://i.imgur.com/rANDwCP.jpeg",
+  "keywords": ["nodejs", "wget", "site cloner", "website duplicating", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/DuckyTeam/heroku-buildpack-imagemagick"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ],
+   "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
